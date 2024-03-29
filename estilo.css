@@ -260,7 +260,7 @@ section.principal-contato ul li i{
     
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1000px) {
   .abrir-menu {
     display: none;
   }
