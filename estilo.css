@@ -237,7 +237,7 @@ section.principal-contato ul li i{
 
 
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 800px){
     .flex{
       flex-direction: column-reverse;
     }
