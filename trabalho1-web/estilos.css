@@ -1,0 +1,30 @@
+
+  
+.curriculo{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+  
+.curriculo h2{
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+  
+.perfil, .educacao, .experiencia, .habilidades {
+  margin-bottom: 20px;
+}
+  
+.curriculo ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.curriculo ul li {
+    margin-bottom: 5px;
+}
+  
+  
+  
