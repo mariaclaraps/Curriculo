@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -72,76 +73,75 @@ section.home .flex{
 }
 
 .home h1{
-  color: #4682B4;
-  font-size: 42px;
-  line-height: 40px;
+    color: #4682B4;
+    font-size: 42px;
+    line-height: 40px;
 }
 
 .home .txt p{
-  margin: 40px 0;
-  text-align: justify;
+    margin: 40px 0;
+    text-align: justify;
 }
 
 .menu-mobile{
-  background-color: #fff;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999999;
-  width: 0%;
-  overflow: hidden;
-  transition: .2s;
+    background-color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    width: 0%;
+    overflow: hidden;
+    transition: .2s;
 }
 
 .menu-mobile nav ul{
-  text-align: right;
+    text-align: right;
 }
 
 .menu-mobile nav ul li a{
-  color: #4682B4;
-  font-size: 20px;
-  font-weight: 300;
-  padding: 20px 8%;
-  display: block;
+    color: #4682B4;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
 }
 
 .menu-mobile nav ul li a:hover{
-  background-color: #B0C4DE;
-  color: #fff;
+    background-color: #B0C4DE;
+    color: #fff;
 }
 
 .menu-mobile .btn{
-  padding: 20px 5%;
+    padding: 20px 5%;
 }
 .menu-mobile .btn i{
-  color: #B0C4DE;
-  font-size: 30px;
+    color: #B0C4DE;
+    font-size: 30px;
 }
 
 .abrir-menu i{
-  color: #fff;
-  font-size: 40px;
+    color: #fff;
+    font-size: 40px;
 }
 
 .overlay-menu{
-  background-color: #e4f0f4;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 888888;
-  display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 888888;
+    display: none;
 }
 
 
 .menu-mobile.abrir-menu{
-  width: 70%;
+    width: 70%;
 }
 
 .menu-mobile.abrir-menu ~ .overlay-menu{
-  display:block;
+    display:block;
 }
 
 .curriculo{
@@ -149,14 +149,14 @@ section.home .flex{
 }
   
 .curriculo h2{
-  color: #4682B4;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+    color: #4682B4;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
   
 .perfil, .educacao, .experiencia, .habilidades, .projetos {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
   
 .curriculo ul {
@@ -169,10 +169,71 @@ section.home .flex{
 }
   
 .curriculo h1{
-  text-align: center;
-  color: #4682B4;
+    text-align: center;
+    color: #4682B4;
 }
 
+section.principal-contato{
+    padding: 40px 4%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+section.principal-contato .flex{
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+section.principal-contato ul{
+    list-style-type: none;
+}
+
+.contato ul li{
+    display: inline-block;
+    padding: 0 2px;
+}
+
+section.principal-contato ul li i{
+    color: #4682B4;
+}
+
+
+.contato{
+    text-align: center;
+}
+
+.contato i{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principal-contato h2{
+  color: #4682B4;
+  text-align: center;
+}
+
+
+
+.redes-sociais{
+  text-align: center;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.redes-sociais i{
+    font-size: 30px;
+}
+
+.redes-sociais ul li i:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
 
 
 
@@ -193,41 +254,14 @@ section.home .flex{
     section.home .flex{
         gap: 40px;
     }
-    .logo img{
-    width: 170px;
-    height: 60px;
-    }
+    .curriculo{
+        padding: 20px 8%;
+    } 
+    
 }
 
-
-@media screen and (max-width: 420px){
-  .menu, .botao{ display: none;}
-
-  .informacoes{ 
-    padding: 30px;
-    width: 300px;
-    height: 100px;
-    text-align: center;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh;
-  }
-  .informacoes h3{
-    text-align: justify;
-  }
-
-  .logo img{
-    width: 170px;
-    height: 60px;
-  }
-
-  .curriculo{
-    width: 300px;
-    height: 700px;
-  }
-}
 @media only screen and (min-width: 769px) {
   .abrir-menu {
-    display: none; /* Esconde o menu lateral em telas maiores */
+    display: none;
   }
 }
