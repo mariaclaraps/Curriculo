@@ -235,6 +235,52 @@ section.principal-contato ul li i{
     transform: scale(1.05);
 }
 
+.portifolio{
+    padding: 40px 4%;
+}
+  
+.portifolio h2{
+    color: #4682B4;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+  
+.projetos {
+    margin-bottom: 20px;
+}
+  
+.portifolio ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.portifolio ul li {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.portifolio ul li a{
+    text-decoration: none;
+    background-color: #4682B4;
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.portifolio ul li a:hover{
+    background-color: #fff;
+    color: #4682B4;
+}
+  
+.portifolio h1{
+    text-align: center;
+    color: #4682B4;
+}
 
 
 @media screen and (max-width: 1000px){
@@ -255,6 +301,9 @@ section.principal-contato ul li i{
         gap: 40px;
     }
     .curriculo{
+        padding: 20px 8%;
+    } 
+    .portifolio{
         padding: 20px 8%;
     } 
     
