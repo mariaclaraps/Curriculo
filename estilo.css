@@ -10,6 +10,7 @@ body{
     background-color: #bde3f1;
     height: 100vh; 
 }
+
 .cabecalho {
     max-width: 1280px;
     margin: 0 auto;
@@ -115,6 +116,7 @@ section.home .flex{
 .menu-mobile .btn{
     padding: 20px 5%;
 }
+
 .menu-mobile .btn i{
     color: #B0C4DE;
     font-size: 30px;
@@ -135,7 +137,6 @@ section.home .flex{
     display: none;
 }
 
-
 .menu-mobile.abrir-menu{
     width: 70%;
 }
@@ -147,18 +148,28 @@ section.home .flex{
 .curriculo{
     padding: 40px 4%;
 }
-  
+
 .curriculo h2{
     color: #4682B4;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
-  
-.perfil, .educacao, .experiencia, .habilidades, .projetos {
+ 
+.perfil, .educacao, .experiencia, .habilidades, .projeto{
     margin-bottom: 20px;
 }
-  
+
+.perfil i{
+    color: #4682B4;
+    margin-right: 8px;
+}
+
+.perfil a{
+    text-decoration: none;
+    color: #000;
+}
+ 
 .curriculo ul {
     list-style-type: none;
     padding: 0;
@@ -167,7 +178,7 @@ section.home .flex{
 .curriculo ul li {
     margin-bottom: 5px;
 }
-  
+ 
 .curriculo h1{
     text-align: center;
     color: #4682B4;
@@ -178,8 +189,6 @@ section.principal-contato{
     margin-left: auto;
     margin-right: auto; 
 }
-
-
 
 section.principal-contato .flex{
     flex-direction: column;
@@ -198,27 +207,25 @@ section.principal-contato ul{
 
 section.principal-contato ul li i{
     color: #4682B4;
+    margin-right: 8px;
 }
-
 
 .contato{
     text-align: center;
 }
 
-.contato i{
-    font-size: 20px;
-    font-weight: bold;
+.contato a{
+    text-decoration: none;
+    color: #000;
 }
 
 .principal-contato h2{
-  color: #4682B4;
-  text-align: center;
+    color: #4682B4;
+    text-align: center;
 }
 
-
-
 .redes-sociais{
-  text-align: center;
+    text-align: center;
 }
 
 .redes-sociais ul li{
@@ -245,26 +252,26 @@ section.principal-contato ul li i{
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
-  
+ 
 .projetos {
     margin-bottom: 20px;
+    text-align: center; 
 }
-  
+ 
 .portifolio ul {
     list-style-type: none;
     padding: 0;
 }
-  
+ 
 .portifolio ul li {
     margin-bottom: 5px;
-    padding: 10px 20px;
 }
 
 .portifolio ul li a{
     text-decoration: none;
     background-color: #4682B4;
     color: #fff; 
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 12px;
     border: none;
     border-radius: 5px;
@@ -276,16 +283,25 @@ section.principal-contato ul li i{
     background-color: #fff;
     color: #4682B4;
 }
-  
+ 
 .portifolio h1{
-    text-align: center;
     color: #4682B4;
 }
 
+.portifolio img{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.portifolio h3{
+    color: #4682B4;
+    padding: 20px;
+}
 
 @media screen and (max-width: 1000px){
     .flex{
-      flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
     .menu{
         display: none;
@@ -306,11 +322,14 @@ section.principal-contato ul li i{
     .portifolio{
         padding: 20px 8%;
     } 
-    
+    .portifolio img{
+        width: 300px;
+        height: 150px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-  .abrir-menu {
-    display: none;
-  }
+    .abrir-menu {
+        display: none;
+    }
 }
